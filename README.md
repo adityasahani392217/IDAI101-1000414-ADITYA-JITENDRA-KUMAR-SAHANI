@@ -4,10 +4,9 @@
 **Course:** Artificial Intelligence: Real-World Applications and Implications
 **CRS:** Artificial Intelligence
 **Student:** Aditya Jitendra Kumar Sahani
-**Grade:**
+**Grade:** 11th 
 **School:** Aspee Nutan Academy 
 **ID:** 1000414
-**School:** Aspee Nutan Academy 
 
 ---
 
@@ -23,11 +22,11 @@ You can test the live, deployed chatbot here:
 
 This repository contains the "Smart Campus Assistant," a chatbot built using Google Dialogflow. It is a summative assessment project for the WACP course, "Artificial Intelligence: Real-World Applications and Implications."
 
-[cite_start]The primary goal of this chatbot is to assist newcomers and regular campus users (like students, parents, staff, and visitors) by providing quick answers about department locations, event venues, office hours, campus policies, transportation options, and emergency contacts[cite: 6]. [cite_start]This AI assistant serves as a reliable, accessible guide to enhance the campus experience for all[cite: 6].
+The primary goal of this chatbot is to assist newcomers and regular campus users (like students, parents, staff, and visitors) by providing quick answers about department locations, event venues, office hours, campus policies, transportation options, and emergency contacts.This AI assistant serves as a reliable, accessible guide to enhance the campus experience for all.
 
 ### Target Users
 
-[cite_start]The primary users for this chatbot include[cite: 39]:
+The primary users for this chatbot include:
 * New Students
 * Guests
 * Parents
@@ -37,7 +36,7 @@ This repository contains the "Smart Campus Assistant," a chatbot built using Goo
 
 ## 3. List of Intents & Entities
 
-[cite_start]This chatbot was implemented with **15 intents** and **10 custom entities** to handle a wide range of user queries, as required by the project brief[cite: 6].
+This chatbot was implemented with **15 intents** and **10 custom entities** to handle a wide range of user queries, as required by the project brief.
 
 ### Intents
 
@@ -83,20 +82,14 @@ Here is a list of the 10 custom entities created to extract data:
 ## 4. Integration Details
 
 * **Platform:** The chatbot is built and hosted on **Google Dialogflow Essentials**.
-* [cite_start]**Slot-Filling:** Slot-filling is used in intents like `find_professor_office` to collect all necessary information (e.g., the `@professor_name`) before providing a complete answer[cite: 47].
-* [cite_start]**Rich Responses:** The chatbot uses rich responses to enhance user engagement[cite: 47], including:
-    * **Suggestion Chips:** Used for navigation options (e.g., "View Map", "Get Directions") or to suggest follow-up queries.
-    * [cite_start]**Media Responses:** Used to display images like campus maps or event banners to provide clearer, more helpful answers[cite: 47].
+* **Slot-Filling:** Slot-filling is used in intents like `find_professor_office` to collect all necessary information (e.g., the `@professor_name`) before providing a complete answer.
+* **Rich Responses:** The chatbot uses rich responses to enhance user engagement, including:
+* **Suggestion Chips:** Used for navigation options (e.g., "View Map", "Get Directions") or to suggest follow-up queries.
+* **Media Responses:** Used to display images like campus maps or event banners to provide clearer, more helpful answers.
 
 ---
 
 ## 5. Deployment Instructions
 
-[cite_start]The chatbot is already deployed and accessible via the live link in Section 1[cite: 47].
+The chatbot is already deployed and accessible via the live link in Section 1.
 
-To import this agent into your own Google Dialogflow project:
-1.  Download the `agent.zip` file (if included in this repository).
-2.  Go to the Google Dialogflow ES console and create a new agent.
-3.  Click the **Gear Icon** (⚙️) to open Agent Settings.
-4.  Go to the **Export and Import** tab.
-5.  Select **Import from Zip** and upload the `agent.zip` file.
