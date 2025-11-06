@@ -1,12 +1,12 @@
 # IDAI101-1000414-ADITYA-JITENDRA-KUMAR-SAHANI
 **AI-Based Smart Solutions: Smart Campus Assistant**
 
-**Course:** Artificial Intelligence: Real-World Applications and Implications
-**CRS:** Artificial Intelligence
-**Student:** Aditya Jitendra Kumar Sahani
-**Grade:** 11th 
-**School:** Aspee Nutan Academy 
-**ID:** 1000414
+* **Course:** Artificial Intelligence: Real-World Applications and Implications
+* **CRS:** Artificial Intelligence
+* **Student:** Aditya Jitendra Kumar Sahani
+* **Grade:** 11th 
+* **School:** Aspee Nutan Academy 
+* **ID:** 1000414
 
 ---
 
