@@ -1,10 +1,13 @@
 # IDAI101-1000414-ADITYA-JITENDRA-KUMAR-SAHANI
 **AI-Based Smart Solutions: Smart Campus Assistant**
 
-[cite_start]**Course:** Artificial Intelligence: Real-World Applications and Implications [cite: 4]
-[cite_start]**CRS:** Artificial Intelligence [cite: 4]
+**Course:** Artificial Intelligence: Real-World Applications and Implications
+**CRS:** Artificial Intelligence
 **Student:** Aditya Jitendra Kumar Sahani
+**Grade:**
+**School:** Aspee Nutan Academy 
 **ID:** 1000414
+**School:** Aspee Nutan Academy 
 
 ---
 
@@ -12,7 +15,7 @@
 
 You can test the live, deployed chatbot here:
 
-* **[PASTE YOUR WORKING LIVE CHATBOT URL HERE]**
+* **https://console.dialogflow.com/api-client/demo/embedded/a28d1336-20b5-4e73-a544-6d009bce8762**
 
 ---
 
