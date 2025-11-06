@@ -14,116 +14,134 @@ AI-Based Conversational Guide for Campus Navigation & Support
 
 Interact with the deployed Smart Campus Assistant here:
 
-[Smart Campus Assistant](https://console.dialogflow.com/api-client/demo/embedded/a28d1336-20b5-4e73-a544-6d009bce8762)
+**[Smart Campus Assistant](https://console.dialogflow.com/api-client/demo/embedded/a28d1336-20b5-4e73-a544-6d009bce8762)**
 
 ---
 
-## 2. Project Summary
+## 2. Project Overview
 
-The Smart Campus Assistant is a chatbot developed using **Google Dialogflow**. It provides quick, reliable campus-related information to students, staff, parents, and visitors. The chatbot replaces repeated manual queries with instant automated responses.
+The Smart Campus Assistant is a Dialogflow-based AI chatbot designed to make campus information easier to access.  
+It provides fast, automated responses to commonly asked questions related to campus navigation, staff offices, event schedules, services, and emergency information.  
+The chatbot reduces dependency on manual inquiry and serves as a **24/7 self-service helpdesk**.
 
-It handles:
-- Building and department locations  
-- Faculty office details  
-- Facility opening hours  
-- Event schedules  
-- Emergency contacts  
-- Campus transportation and services  
-
-This system functions as a **self-service campus helpdesk** available at all times.
+It answers queries like:
+- Locations of academic buildings and labs  
+- Faculty office and department details  
+- Facility and office operating hours  
+- Event schedules and venue information  
+- Transportation options within and near campus  
+- Emergency support and contact numbers  
 
 ---
 
 ## 3. Target Users
 
-| User Group | Primary Need |
+| User Group | Purpose |
 |---|---|
-| New Students | Orientation & directions |
-| Existing Students | Quick recurring information |
-| Parents & Visitors | Navigation and campus procedures |
-| Staff | Streamlined communication |
+| New Students | Orientation & campus familiarity |
+| Existing Students | Quick access to repeated information |
+| Parents & Visitors | Guidance and navigation support |
+| Staff & Administration | Consistent and reliable communication |
 
 ---
 
-## 4. System Details
+## 4. Integration Details
 
-**Platform Used:** Dialogflow Essentials  
-**Core Features:**
-- Natural Language Understanding (NLU)
-- Intent and Entity-based query handling
-- Slot filling for multi-step responses
-- Rich Responses (chips, maps, images)
+- Developed using **Google Dialogflow Essentials**.
+- **Intents** identify what the user is asking.
+- **Entities** extract specific information (such as building names or professor names).
+- **Slot Filling** ensures the chatbot collects missing details before answering (e.g., asks for professor name if not provided).
+- **Training Phrases** improve understanding of natural variations in queries.
+- **Rich Responses** (suggestion chips, quick replies, images) improve clarity and usability.
+- Hosted using Dialogflow’s **Web Demo Integration**. No external APIs required.
 
 ---
 
-## 5. Intents (15)
+## 5. List of Intents (15)
 
 | Intent Name | Purpose |
 |---|---|
-| Default Welcome | Greets the user |
-| Default Fallback | Handles unknown queries |
-| find_academic_building | Locate academic buildings |
-| find_event | Event time/location info |
-| find_hours | Facility operating hours |
-| find_lab | Directions to campus labs |
-| find_location | General campus directions |
-| find_professor_office | Locate professor offices |
-| find_service_building | Locate service buildings |
-| get_contact | Provide department contact info |
-| get_emergency_contact | Provide emergency numbers |
-| get_nearby_recreation | Suggest recreation spaces |
-| get_policy | Explain campus policies |
-| get_transportation | Transportation details |
-| Goodbye | Close conversation |
+| Default Welcome | Start conversation and greet user |
+| Default Fallback | Handle unclear queries |
+| find_academic_building | Locate academic departments or blocks |
+| find_event | Provide event schedule/location |
+| find_hours | Provide office or facility timings |
+| find_lab | Directions to science/CS labs |
+| find_location | Locate general campus places |
+| find_professor_office | Provide professor office location |
+| find_service_building | Locate services like library/admin/hostel |
+| get_contact | Provide phone/email of a department |
+| get_emergency_contact | Provide emergency support contact |
+| get_nearby_recreation | Suggest recreational or refreshment places |
+| get_policy | Explain campus policies and rules |
+| get_transportation | Provide bus/transport details |
+| Goodbye | Ends the session politely |
 
 ---
 
-## 6. Entities (10)
+## 6. Custom Entities (10)
 
-| Entity Name | Captures |
+| Entity Name | Used For Capturing |
 |---|---|
-| `@academic_building` | Academic block names |
+| `@academic_building` | Building/department names |
 | `@contact_type` | Phone / Email / Address |
 | `@event_name` | Event identifiers |
-| `@facility` | Facilities like gym/cafeteria |
-| `@lab_name` | Science/CS lab names |
-| `@location` | General campus locations |
+| `@facility` | Facilities like cafeteria/gym |
+| `@lab_name` | Lab names |
+| `@location` | General campus areas |
 | `@policy_type` | Policy categories |
-| `@professor_name` | Faculty names |
-| `@recreation_type` | Cafe / park / etc. |
-| `@service_building` | Service building names |
+| `@professor_name` | Instructor/faculty names |
+| `@recreation_type` | Recreation place types |
+| `@service_building` | Library / Admin / Hostel / Admissions |
 
 ---
 
-## 7. Deployment Status
+## 7. Deployment Instructions
 
-- Chatbot fully functional  
-- Hosted online via Dialogflow  
-- Accessible through browser  
-- Works on desktop and mobile  
+To deploy or reuse the chatbot:
+
+1. Open Dialogflow: `https://dialogflow.cloud.google.com/`
+2. Import or create the Smart Campus Assistant agent.
+3. Add all intents and entities listed above.
+4. Verify training phrases and responses.
+5. Go to **Integrations** → Enable **Web Demo**.
+6. Copy the generated web link or embed code.
+7. Share the link on:
+   - School website
+   - Student onboarding handbook
+   - QR code posters around campus
+
+Deployment is complete when the chatbot responds live in the browser.
 
 ---
 
-## 8. Future Improvements
+## 8. Deployment Status
 
-- Add voice input support  
-- Integrate campus map navigation  
-- Add multilingual support  
+- Fully deployed  
+- Accessible across devices  
+- Works without login  
+- No additional installation required  
 
 ---
 
-## 9. Collaboration
+## 9. Future Improvements
 
-This project was completed with team contribution and coordinated effort.
+- Add voice input (Speech → Text)
+- Connect interactive campus map for live navigation
+- Add multi-language support
 
-| Name | Student ID | Role |
+---
+
+## 10. Collaboration
+
+| Name | Student ID | Responsibility |
 |---|---|---|
-| Aditya Jitendra Kumar Sahani | 1000414 | Lead Developer / Dialogflow Builder |
-| Zene Sophie Anand | 1000442 | Intent Structuring & Entity Design |
-| Naman Om Shreshta | 1000432 | Testing, Flow Review & Deployment Support |
+| Aditya Jitendra Kumar Sahani | 1000414 | Lead Development & Dialogflow Build |
+| Zene Sophie Anand | 1000442 | Intent and Entity Structuring |
+| Naman Om Shreshta | 1000432 | Testing, Debugging & Deployment Support |
 
 ---
 
 ### License
-This project is submitted as part of the school coursework for educational demonstration.
+This project is created for educational and academic submission purposes under the WACP AI coursework.
 
