@@ -112,6 +112,18 @@ This system functions as a **self-service campus helpdesk** available at all tim
 
 ---
 
+## 9. Collaboration
+
+This project was completed with team contribution and coordinated effort.
+
+| Name | Student ID | Role |
+|---|---|---|
+| Aditya Jitendra Kumar Sahani | 1000414 | Lead Developer / Dialogflow Builder |
+| Zene Sophie Anand | 1000442 | Intent Structuring & Entity Design |
+| Naman Om Shreshta | 1000432 | Testing, Flow Review & Deployment Support |
+
+---
+
 ### License
 This project is submitted as part of the school coursework for educational demonstration.
 
