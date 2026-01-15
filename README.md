@@ -137,15 +137,5 @@ To deploy or reuse this chatbot agent:
 
 ---
 
-## 10. Collaboration
-
-| Name | Student ID | Responsibility |
-| :--- | :--- | :--- |
-| **Aditya Jitendra Kumar Sahani** | 1000414 | Lead Development & Dialogflow Build |
-| **Zene Sophie Anand** | 1000442 | Intent and Entity Structuring |
-| **Naman Om Shreshta** | 1000432 | Testing, Debugging & Deployment Support |
-
----
-
 ### License
 This project is created for educational and academic submission purposes under the WACP AI coursework.
